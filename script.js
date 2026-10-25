@@ -380,7 +380,8 @@ document.head.appendChild(style);
 document.addEventListener('DOMContentLoaded', () => {
     const academicCards = document.querySelectorAll('.project-card[data-category="academic"]');
     const clientCards = document.querySelectorAll('.project-card[data-category="clients"]');
-    
+    const nonAcademicCards = document.querySelectorAll('.project-card[data-category="non-academic"]');
+
     academicCards.forEach(card => {
         card.addEventListener('click', () => {
             const projectType = card.getAttribute('data-project');
@@ -391,6 +392,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     clientCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const projectType = card.getAttribute('data-project');
+            if (projectType) {
+                openProjectModal(projectType);
+            }
+        });
+    });
+
+    nonAcademicCards.forEach(card => {
         card.addEventListener('click', () => {
             const projectType = card.getAttribute('data-project');
             if (projectType) {
@@ -579,7 +589,30 @@ const imageSets = {
         'Projects/Client Projects/Thermal Collector/2.jpg'
         
 
-    ]
+    ],
+    // Non-Academic Project Images
+    athwalaImages: [
+        'Projects/Non Academics Projects/Athwala/FB_IMG_1698923686844.jpg',
+        'Projects/Non Academics Projects/Athwala/1713629779179.jpg',
+    ],
+    ecoGenesisImages: [
+        'Projects/Non Academics Projects/EcoGenesis/1704603432519.jpg',
+        'Projects/Non Academics Projects/EcoGenesis/1704603433265.jpg',
+    ],
+    numinousImages: [
+        'Projects/Non Academics Projects/Numinous/FB_IMG_1691297349251.jpg',
+        'Projects/Non Academics Projects/Numinous/20231223_110520(0).jpg',
+        'Projects/Non Academics Projects/Numinous/FB_IMG_1712589167063.jpg',
+        'Projects/Non Academics Projects/Numinous/FB_IMG_1731750823558.jpg',
+        'Projects/Non Academics Projects/Numinous/FB_IMG_1760948064072.jpg',
+    ],
+    starSeekersImages: [
+        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1698068896944.jpg',
+        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1698069024908.jpg',
+        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1698069095526.jpg',
+        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1709050190237.jpg',
+        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1709050214703.jpg',
+    ],
 };
 
 function openImageViewer(element, imageSetName) {
@@ -815,6 +848,25 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Finger swipe: left/right on the cards moves between pages, same as the arrows
+    let touchStartX = 0;
+    let touchStartY = 0;
+    document.querySelectorAll('.projects-grid').forEach(grid => {
+        grid.addEventListener('touchstart', e => {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+        }, { passive: true });
+
+        grid.addEventListener('touchend', e => {
+            const dx = e.changedTouches[0].clientX - touchStartX;
+            const dy = e.changedTouches[0].clientY - touchStartY;
+            // Ignore short or mostly vertical moves so normal page scrolling still works
+            if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy)) return;
+            const arrow = dx < 0 ? rightArrow : leftArrow;
+            if (arrow && !arrow.disabled) arrow.click();
+        }, { passive: true });
+    });
 
     // Initialize pagination for all categories
     function initializePagination() {

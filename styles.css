@@ -445,6 +445,8 @@ svg {
     gap: var(--grid-gap);
     align-items: stretch;
     margin-bottom: 2rem;
+    /* let the browser keep up/down scrolling while script.js reads left/right swipes */
+    touch-action: pan-y;
 }
 
 .project-card {
@@ -566,6 +568,11 @@ svg {
     overflow: hidden;
     line-height: 1.3;
     min-height: 3.9em;
+}
+
+/* Short non-academic titles should sit right above their description */
+.project-card[data-category="non-academic"] .project-content h3 {
+    min-height: 0;
 }
 
 .project-content p {
@@ -2106,6 +2113,26 @@ button, input, textarea, select {
 @media (max-width: 768px) {
     .resume .dot-skill-list {
         grid-template-columns: minmax(0, 20rem);
+    }
+
+    /* match the row spacing of the Technical and Soft lists on phones */
+    .resume .dot-skill-list li {
+        margin-bottom: 8px;
+    }
+}
+
+/* small phones: keep every Technical and Soft item on one line so rows stay evenly spaced */
+@media (max-width: 375px) {
+    .resume-list.two-col li,
+    .resume .dot-skill-list li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .resume-list.two-col li,
+    .resume .dot-skill-list li {
+        font-size: 0.9rem;
     }
 }
 
