@@ -2090,7 +2090,8 @@ button, input, textarea, select {
     justify-content: center;
 }
 
-.resume-skill-row:has(.two-col) h4 {
+.resume-skill-row:has(.two-col) h4,
+.resume-skill-row:has(.centered) h4 {
     text-align: center;
 }
 
