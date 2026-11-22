@@ -435,183 +435,183 @@ let currentImageSet = [];
 const imageSets = {
     // Academic Project Images
     automotiveLabImages: [
-        'Projects/Academic Projects/Automotive Laboratory Rack/1.png',
-        'Projects/Academic Projects/Automotive Laboratory Rack/2.png',
-        'Projects/Academic Projects/Automotive Laboratory Rack/3.png',
-        'Projects/Academic Projects/Automotive Laboratory Rack/4.png'
+        'src/Projects/Academic Projects/Automotive Laboratory Rack/1.png',
+        'src/Projects/Academic Projects/Automotive Laboratory Rack/2.png',
+        'src/Projects/Academic Projects/Automotive Laboratory Rack/3.png',
+        'src/Projects/Academic Projects/Automotive Laboratory Rack/4.png'
     ],
     dashboardPanelImages: [
-        'Projects/Academic Projects/Dashboard Panel for Engine Test Bench/1.JPG',
-        'Projects/Academic Projects/Dashboard Panel for Engine Test Bench/2.JPG',
-        'Projects/Academic Projects/Dashboard Panel for Engine Test Bench/Screenshot 2024-10-16 100713.png'
+        'src/Projects/Academic Projects/Dashboard Panel for Engine Test Bench/1.JPG',
+        'src/Projects/Academic Projects/Dashboard Panel for Engine Test Bench/2.JPG',
+        'src/Projects/Academic Projects/Dashboard Panel for Engine Test Bench/Screenshot 2024-10-16 100713.png'
     ],
     engineTestBenchImages: [
-        'Projects/Academic Projects/Engine Test Bench Sample Design/Screenshot 2025-07-30 054031.png',
-        'Projects/Academic Projects/Engine Test Bench Sample Design/Screenshot 2025-07-30 054052.png',
-        'Projects/Academic Projects/Engine Test Bench Sample Design/Screenshot 2025-07-30 054115.png'
+        'src/Projects/Academic Projects/Engine Test Bench Sample Design/Screenshot 2025-07-30 054031.png',
+        'src/Projects/Academic Projects/Engine Test Bench Sample Design/Screenshot 2025-07-30 054052.png',
+        'src/Projects/Academic Projects/Engine Test Bench Sample Design/Screenshot 2025-07-30 054115.png'
     ],
     sinkTubImages: [
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095250.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095520.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095706.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095901.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 100048.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 100202.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095737.png',
-        'Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 100237.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095250.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095520.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095706.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095901.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 100048.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 100202.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 095737.png',
+        'src/Projects/Academic Projects/Sink & Tub with Cupboard/Screenshot 2024-10-09 100237.png',
 
     ],
     pulleySystemImages: [
-        'Projects/Academic Projects/Pulley for Gear Mechanism System/Screenshot 2025-07-30 054356.png',
-        'Projects/Academic Projects/Pulley for Gear Mechanism System/Screenshot 2025-07-30 054409.png'
+        'src/Projects/Academic Projects/Pulley for Gear Mechanism System/Screenshot 2025-07-30 054356.png',
+        'src/Projects/Academic Projects/Pulley for Gear Mechanism System/Screenshot 2025-07-30 054409.png'
     ],
     f1CarImages: [
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/1.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/2.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/3.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/4.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/5.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/6.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/7.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/9.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/10.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/11.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/12.png',
-        'Projects/Academic Projects/F1 Car for Simulation Purposes/13.png'
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/1.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/2.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/3.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/4.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/5.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/6.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/7.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/9.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/10.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/11.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/12.png',
+        'src/Projects/Academic Projects/F1 Car for Simulation Purposes/13.png'
 
     ],
     inlineEngineImages: [
-        'Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/1.png',
-        'Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/2.png',
-        'Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/3.png',
-        'Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/4.jpg',
+        'src/Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/1.png',
+        'src/Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/2.png',
+        'src/Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/3.png',
+        'src/Projects/Academic Projects/Inline Four Cylinder Engine Sample Design/4.jpg',
 
 
     ],
     plasticBoatImages: [
-        'Projects/Academic Projects/Plastic Extractor Boat/1.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/2.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/3.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/4.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/5.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/6.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/7.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/8.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/9.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/10.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/11.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/12.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/13.png',
-        'Projects/Academic Projects/Plastic Extractor Boat/14.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/1.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/2.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/3.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/4.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/5.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/6.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/7.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/8.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/9.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/10.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/11.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/12.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/13.png',
+        'src/Projects/Academic Projects/Plastic Extractor Boat/14.png',
     ],
     shockWheelImages: [
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/1.png',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/2.png',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/3.png',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/4.png',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/5.jpg',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/6.jpg',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/7.jpg',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/8.jpg',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/9.jpg',
-        'Projects/Academic Projects/Shock Spoke Wheel Mechanism/10.png',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/1.png',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/2.png',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/3.png',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/4.png',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/5.jpg',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/6.jpg',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/7.jpg',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/8.jpg',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/9.jpg',
+        'src/Projects/Academic Projects/Shock Spoke Wheel Mechanism/10.png',
     ],
     // Client Project Images
     sinhalaCakeCutterImages: [
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/2.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/3.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/4.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/5.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/6.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/7.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/9.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/10.png',
-        'Projects/Client Projects/Sinhala Letter Cake Cutter/11.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/2.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/3.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/4.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/5.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/6.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/7.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/9.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/10.png',
+        'src/Projects/Client Projects/Sinhala Letter Cake Cutter/11.png',
     ],
     tableDecorationStandImages: [
-        'Projects/Client Projects/Table Decoration Stand/Screenshot 2025-07-30 052452.png',
-        'Projects/Client Projects/Table Decoration Stand/Screenshot 2025-07-30 052510.png',
-        'Projects/Client Projects/Table Decoration Stand/Screenshot 2025-07-30 052528.png'
+        'src/Projects/Client Projects/Table Decoration Stand/Screenshot 2025-07-30 052452.png',
+        'src/Projects/Client Projects/Table Decoration Stand/Screenshot 2025-07-30 052510.png',
+        'src/Projects/Client Projects/Table Decoration Stand/Screenshot 2025-07-30 052528.png'
     ],
     tracRideEnclosureImages: [
-        'Projects/Client Projects/TracRide Enclosure/Screenshot 2025-07-30 051820.png',
-        'Projects/Client Projects/TracRide Enclosure/Screenshot 2025-07-30 051833.png',
-        'Projects/Client Projects/TracRide Enclosure/Screenshot 2025-07-30 052110.png'
+        'src/Projects/Client Projects/TracRide Enclosure/Screenshot 2025-07-30 051820.png',
+        'src/Projects/Client Projects/TracRide Enclosure/Screenshot 2025-07-30 051833.png',
+        'src/Projects/Client Projects/TracRide Enclosure/Screenshot 2025-07-30 052110.png'
     ],
     tunnelSuckingMechanismImages: [
-        'Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052826.png',
-        'Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052843.png',
-        'Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052917.png',
-        'Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052925.png'
+        'src/Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052826.png',
+        'src/Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052843.png',
+        'src/Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052917.png',
+        'src/Projects/Client Projects/Tunnel for Sucking Mechanism/Screenshot 2025-07-30 052925.png'
     ],
     // Final-year projects
     biomorphicChassisImages: [
-        'Projects/Academic Projects/FYRP/Image9.png',
-        'Projects/Academic Projects/FYRP/Image11.png',
-        'Projects/Academic Projects/FYRP/Image12.png',
-        'Projects/Academic Projects/FYRP/Image13.png',
-        'Projects/Academic Projects/FYRP/Image14.png',
-        'Projects/Academic Projects/FYRP/Image15.png',
-        'Projects/Academic Projects/FYRP/Image16.png',
-        'Projects/Academic Projects/FYRP/Image17.png'
+        'src/Projects/Academic Projects/FYRP/Image9.png',
+        'src/Projects/Academic Projects/FYRP/Image11.png',
+        'src/Projects/Academic Projects/FYRP/Image12.png',
+        'src/Projects/Academic Projects/FYRP/Image13.png',
+        'src/Projects/Academic Projects/FYRP/Image14.png',
+        'src/Projects/Academic Projects/FYRP/Image15.png',
+        'src/Projects/Academic Projects/FYRP/Image16.png',
+        'src/Projects/Academic Projects/FYRP/Image17.png'
     ],
     phoneSimImages: [
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-23 215031.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-23 230033.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060808.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060816.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060835.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060926.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060934.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060945.png',
-        'Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060954.png'
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-23 215031.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-23 230033.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060808.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060816.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060835.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060926.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060934.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060945.png',
+        'src/Projects/Academic Projects/FYGP/Screenshot 2026-09-28 060954.png'
     ],
     airDuctImages: [
-        'Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214853.png',
-        'Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214901.png',
-        'Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214910.png',
-        'Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214916.png',
-        'Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214923.png'
+        'src/Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214853.png',
+        'src/Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214901.png',
+        'src/Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214910.png',
+        'src/Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214916.png',
+        'src/Projects/Client Projects/Air Duct Design for Electric Tray Dryer/Screenshot 2026-08-22 214923.png'
     ],
     enclosureImages: [
-        'Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 203939.png',
-        'Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 203946.png',
-        'Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 203953.png',
-        'Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 204023.png',
-        'Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 204032.png',
-        'Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 204042.png'
+        'src/Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 203939.png',
+        'src/Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 203946.png',
+        'src/Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 203953.png',
+        'src/Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 204023.png',
+        'src/Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 204032.png',
+        'src/Projects/Client Projects/Enclosure Design for IoT Indoor Air Quality Monitoring System/Screenshot 2026-08-24 204042.png'
     ],
     thermalCollectorImages: [
-        'Projects/Client Projects/Thermal Collector/Screenshot 2025-07-30 054802.png',
-        'Projects/Client Projects/Thermal Collector/Screenshot 2025-07-30 054818.png',
-        'Projects/Client Projects/Thermal Collector/Screenshot 2025-07-30 054823.png',
-        'Projects/Client Projects/Thermal Collector/1.jpg',
-        'Projects/Client Projects/Thermal Collector/2.jpg'
+        'src/Projects/Client Projects/Thermal Collector/Screenshot 2025-07-30 054802.png',
+        'src/Projects/Client Projects/Thermal Collector/Screenshot 2025-07-30 054818.png',
+        'src/Projects/Client Projects/Thermal Collector/Screenshot 2025-07-30 054823.png',
+        'src/Projects/Client Projects/Thermal Collector/1.jpg',
+        'src/Projects/Client Projects/Thermal Collector/2.jpg'
         
 
     ],
     // Non-Academic Project Images
     athwalaImages: [
-        'Projects/Non Academics Projects/Athwala/FB_IMG_1698923686844.jpg',
-        'Projects/Non Academics Projects/Athwala/1713629779179.jpg',
+        'src/Projects/Non Academics Projects/Athwala/FB_IMG_1698923686844.jpg',
+        'src/Projects/Non Academics Projects/Athwala/1713629779179.jpg',
     ],
     ecoGenesisImages: [
-        'Projects/Non Academics Projects/EcoGenesis/1704603432519.jpg',
-        'Projects/Non Academics Projects/EcoGenesis/1704603433265.jpg',
+        'src/Projects/Non Academics Projects/EcoGenesis/1704603432519.jpg',
+        'src/Projects/Non Academics Projects/EcoGenesis/1704603433265.jpg',
     ],
     numinousImages: [
-        'Projects/Non Academics Projects/Numinous/FB_IMG_1691297349251.jpg',
-        'Projects/Non Academics Projects/Numinous/20231223_110520(0).jpg',
-        'Projects/Non Academics Projects/Numinous/FB_IMG_1712589167063.jpg',
-        'Projects/Non Academics Projects/Numinous/FB_IMG_1731750823558.jpg',
-        'Projects/Non Academics Projects/Numinous/FB_IMG_1760948064072.jpg',
+        'src/Projects/Non Academics Projects/Numinous/FB_IMG_1691297349251.jpg',
+        'src/Projects/Non Academics Projects/Numinous/20231223_110520(0).jpg',
+        'src/Projects/Non Academics Projects/Numinous/FB_IMG_1712589167063.jpg',
+        'src/Projects/Non Academics Projects/Numinous/FB_IMG_1731750823558.jpg',
+        'src/Projects/Non Academics Projects/Numinous/FB_IMG_1760948064072.jpg',
     ],
     starSeekersImages: [
-        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1698068896944.jpg',
-        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1698069024908.jpg',
-        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1698069095526.jpg',
-        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1709050190237.jpg',
-        'Projects/Non Academics Projects/Star Seekers/FB_IMG_1709050214703.jpg',
+        'src/Projects/Non Academics Projects/Star Seekers/FB_IMG_1698068896944.jpg',
+        'src/Projects/Non Academics Projects/Star Seekers/FB_IMG_1698069024908.jpg',
+        'src/Projects/Non Academics Projects/Star Seekers/FB_IMG_1698069095526.jpg',
+        'src/Projects/Non Academics Projects/Star Seekers/FB_IMG_1709050190237.jpg',
+        'src/Projects/Non Academics Projects/Star Seekers/FB_IMG_1709050214703.jpg',
     ],
 };
 

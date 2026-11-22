@@ -5,14 +5,14 @@
   <br />
   <a href="https://www.linkedin.com/in/sasanga-athuraliya">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://www.instagram.com/sasanga_athuraliya">Instagram</a> &nbsp;·&nbsp;
-  <a href="https://github.com/sasangaathuraliya">GitHub</a>
+  <a href="https://sasangaathuraliya.github.io/Portfolio/">Portfolio</a>
 </p>
 
 <hr />
 
 <h2>PROFILE</h2>
 
-<p>I am an Automotive Engineering graduate (B.Sc. Hons) specializing in chassis design, topology optimisation, and aerodynamics. I have hands-on experience in vehicle diagnostics and maintenance from industrial training at Diesel &amp; Motor Engineering PLC, and advanced CAD proficiency in SOLIDWORKS and CATIA. My final-year research focused on biomorphic generative design for Formula Student chassis optimization. I combine technical engineering expertise with leadership in cross-functional teams, demonstrated through leading the Society of Automotive Engineering and the PhoneSim engineering team. I aspire to contribute to innovative automotive and motorsport engineering solutions.</p>
+<p>I am a graduate with a BSc (Hons) in Engineering in Automotive Engineering, specializing in chassis design, topology optimisation, and aerodynamics. I have hands-on experience in vehicle diagnostics and maintenance from industrial training at Diesel &amp; Motor Engineering PLC, and advanced CAD proficiency in SOLIDWORKS, CATIA and Fusion. My final-year research focused on biomorphic generative design for Formula Student chassis optimization. I combine technical engineering expertise with leadership in cross-functional teams, demonstrated through leading the Society of Automotive Engineering and the PhoneSim engineering team. I aspire to contribute to innovative automotive and motorsport engineering solutions.</p>
 
 <hr />
 
@@ -22,8 +22,6 @@
 
 <h2>TECHNICAL SKILLS</h2>
 
-- Vehicle Scanning &amp; Diagnosing
-- Vehicle Repairing &amp; Maintenance
 - Computer-Aided Design
 - Finite Element Analysis
 - Computational Fluid Dynamics
@@ -32,6 +30,8 @@
 - Vehicle Design &amp; Development
 - Vehicle Testing &amp; Validation
 - Vehicle Performance Analysis
+- Vehicle Scanning &amp; Diagnosing
+- Vehicle Repairing &amp; Maintenance
 
 <h3>SOFT SKILLS</h3>
 
@@ -64,7 +64,7 @@
 
 <h2>EDUCATION</h2>
 
-<p><b>B.Sc. (Hons) in Automotive Engineering</b> · Oct 2022 – Oct 2026<br />CINEC Campus, Malabe<br /><i>Soon to be Graduated (~292 ECTS)</i></p>
+<p><b>BSc (Hons) in Engineering in Automotive Engineering</b> · Oct 2022 – Oct 2026<br />CINEC Campus, Malabe<br /><i>Soon to be Graduated (~292 ECTS)</i></p>
 
 <p><b>G.C.E. Advanced Level Examination (2021)</b> · Jul 2019 – Feb 2022<br />Royal College, Colombo 07</p>
 
@@ -94,16 +94,16 @@
 
 <h2>ACADEMIC PROJECTS</h2>
 
-<p><b>Individual Research Project</b> · Jan 2026 – Aug 2026<br /><b>Biomorphic Generative Design and Lattice-Integrated Optimisation of a Formula Student Chassis for Enhanced Performance</b><br />
-• Objective: enhance stiffness-to-weight ratio through biomorphic topology optimisation (CATIA V6) and lattice integration while ensuring FS-UK 2025 regulatory compliance.<br />
-• Completed baseline 14-member steel spaceframe CAD with full FS rule validation (zero violations). Conducted sectioned topology optimisation (front, mid, rear) with material comparison (AISI 4130 vs Ti-6Al-4V LPBF Post-HIP).<br />
-• FEA validation across 7 load cases (torsional stiffness, bending, von Mises stress, impact, buckling).<br />
-• Prototype: 1:3 scale 3D-printed geometric validation model confirming design feasibility.<br />
+<p><b>Final Year Individual Research Project</b> · Jan 2026 – Aug 2026<br /><b>Biomorphic Generative Design and Lattice-Integrated Optimisation of a Formula Student Chassis for Enhanced Performance</b><br />
+• Objective: enhance stiffness-to-weight ratio through biomorphic topology optimisation and lattice integration while ensuring FS-UK 2025 regulatory compliance.<br />
+• Completed baseline steel spaceframe CAD in 3DX CATIA with full FS rule validation (zero violations). Conducted sectioned topology optimisation (front, mid, rear sections) with material comparison (AISI 4130 vs Ti-6Al-4V LPBF Post-HIP) in 3DX SIMULIA.<br />
+• Established comprehensive FEA validation across 7 load cases (torsional stiffness, bending, von Mises stress, impact, buckling).<br />
+• Prototype: 1:3 scale 3D-printed geometric validation model confirming design feasibility. Methodology validated and confirmed, with partial topology optimisation results achieved despite complex computational and feature-conflict limitations.<br />
 • Target outcomes: 30% mass reduction, 2.0+ safety factor, 15% stiffness-to-weight improvement.<br />
 • Status: core methodology validated and framework established for future continuation, as the project will be independently developed post-graduation.
 </p>
 
-<p><b>Final Year Group Project</b> · Feb 2025 – Mar 2025<br /><b>PhoneSim: Smartphone-Integrated Driving Simulation Controller System</b><br />As Engineering Director, led mechanical design, system architecture, and validation. Developed an integrated system leveraging a smartphone gyroscope, vibration motor, and display, combined with a custom steering wheel and 3-pedal assembly. Engineered an ESP32-S3 controller bridge integrating smartphone IMU input with the Windows/vJoy game controller protocol. Completed three-generation design progression (Gen 1.1 Concept, Gen 1.2 Refinement, Gen 1.3 Design-for-Manufacture) and delivered a functional prototype tested for pedal sensing, steering calibration, and game integration. Multi-disciplinary collaboration across a 5-person team.</p>
+<p><b>Final Year Group Research Project</b> · Feb 2025 – Mar 2025<br /><b>PhoneSim: Smartphone-Integrated Driving Simulation Controller System</b><br />As Engineering Director, led mechanical design, system architecture, and validation. Developed an integrated system leveraging a smartphone gyroscope, vibration motor, and display, combined with a custom steering wheel and 3-pedal assembly. Engineered an ESP32-S3 controller bridge integrating smartphone IMU input with the Windows/vJoy game controller protocol. Completed three-generation design progression (Gen 1.1 Concept, Gen 1.2 Refinement, Gen 1.3 Design-for-Manufacture) and delivered a functional prototype tested for pedal sensing, steering calibration, and game integration. Multi-disciplinary collaboration across a 5-person team.</p>
 
 <p><b>F1 Model for Aerodynamic Performance Analysis Using CFD</b> · Feb 2025 – Mar 2025<br />Conducted a CFD-based aerodynamic study of three Formula 1 car models designed in SOLIDWORKS, focusing on drag coefficient (Cd) optimisation. Model 01 (Base): Cd = 0.826 · Model 02 (with DRS): Cd = 0.791 · Model 03 (with DRS + Splitter): Cd = 0.773. Results reflect realistic aerodynamic trade-offs, where Cd values of 0.7–1.2 are typical to balance drag and downforce.</p>
 

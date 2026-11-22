@@ -1645,6 +1645,11 @@ body.loading .hero * {
     text-align: center;
 }
 
+.resume-languages {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
 .resume-cert h4 {
     font-size: 1.25rem;
     font-weight: 700;
