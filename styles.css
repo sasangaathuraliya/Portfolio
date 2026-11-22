@@ -1554,6 +1554,9 @@ body.loading .hero * {
 
 .resume-entry {
     margin-bottom: 2.2rem;
+    /* logo badge size and its gap to the title; the description indent below reuses them */
+    --logo-size: 64px;
+    --logo-gap: 1.1rem;
 }
 
 .resume-entry-head {
@@ -1567,6 +1570,38 @@ body.loading .hero * {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--primary-text);
+}
+
+/* Organisation logo beside the entry title. The circle crop trims square or
+   grey logo backgrounds so every logo reads the same size. */
+.resume-entry-main.has-logo {
+    display: flex;
+    /* top-aligned so the logo always sits beside the title, even when the title wraps to two lines */
+    align-items: flex-start;
+    gap: var(--logo-gap);
+}
+
+/* Description lines up with the title text, not with the logo */
+.resume-entry:has(.has-logo) .resume-desc {
+    margin-left: calc(var(--logo-size) + var(--logo-gap));
+}
+
+/* Keep the date level with the title (a flex row would otherwise baseline it to the logo's bottom edge) */
+.resume-entry-head:has(.has-logo) {
+    align-items: flex-start;
+}
+
+.resume-entry-head:has(.has-logo) .resume-date {
+    padding-top: 0.15rem;
+}
+
+.resume-logo {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    flex: 0 0 var(--logo-size);
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgba(82, 137, 173, 0.18);
 }
 
 .resume-org {
@@ -1665,6 +1700,16 @@ body.loading .hero * {
     .resume-date {
         text-align: left;
         white-space: normal;
+    }
+
+    .resume-entry {
+        --logo-size: 48px;
+        --logo-gap: 0.9rem;
+    }
+
+    /* full-width description on phones: an indent would squeeze the text */
+    .resume-entry:has(.has-logo) .resume-desc {
+        margin-left: 0;
     }
 
     .resume .dot-skill-list {
